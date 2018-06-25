@@ -1,0 +1,46 @@
+svg {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.input, .page-list {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.table{
+	margin: 20px;
+	border-collapse: collapse;
+}
+
+.table td, .table th{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.table tr[contenteditable]{
+	background-color: lightgreen;
+}
+
+.th-sorted {
+	color:darkblue;
+}
+
+.filter, .paging {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.hidden, .hidden-row-page {
+	display: none;
+}
+
+.page-buttons {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.highlight-page {
+	color:darkblue;
+	text-decoration:underline;
+}
